@@ -7,4 +7,4 @@ spec:
     - port: 5174
       targetPort: 5174
   selector:
-    app: spofo-front
+    app: frontend
