@@ -1,0 +1,333 @@
+body {
+  /* 구글 웹 폰트 적용 */
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #112D4E !important;
+  margin: 0px;
+  height: 95vh;
+}
+
+.main-logo {
+  width: 70%;
+}
+
+.el-link__inner {
+  color: #112D4E !important;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #DBE2EF;
+  font-size: 1.1rem;
+}
+
+.header .el-link__inner {
+  font-size: 1.1rem;
+}
+
+.header-content {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main-container {
+  margin: auto;
+  width: 90vw;
+  text-align: center;
+}
+
+.main-container .login-btn {
+  width: 50%;
+  height: 5rem !important;
+  font-size: 2.5rem !important;
+}
+
+.login .button-container {
+  width: 30rem;
+  margin: auto;
+}
+
+.login .button-container img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1rem;
+  border-radius: 50%;
+}
+
+.login .login-btn {
+  width: 100%;
+  height: 4rem !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 2rem;
+}
+
+.portfolio-create-selection .button-container {
+  width: 30rem;
+  margin: 15rem auto;
+}
+
+.portfolio-create-selection .portfolio-create-selection-btn {
+  width: 100%;
+  height: 4rem !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 2rem;
+}
+
+.portfolios-summary-container, .portfolio-summary-container, .create-stock-container {
+  width: 85%;
+  margin: auto;
+}
+
+.portfolio-create-container {
+  width: 60%;
+  margin: auto;
+}
+
+.portfolio-create-container label {
+  font-size: 1.2rem;
+}
+
+.portfolios-summary-container .box-card, .portfolio-create-container .box-card,
+.portfolio-summary-container .box-card, .portfolio-create-container .box-card,
+.create-stock-container .box-card, .portfolio-create-container .box-card {
+  width: 80%;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  background-color: #F9F7F7;
+}
+
+.portfolios-summary-container .card-header,
+.portfolio-summary-container .card-header,
+.create-stock-container .card-header {
+  padding: 0.5rem;
+}
+
+.portfolios-summary-container .card-body, .portfolio-create-container .card-body,
+.portfolio-summary-container .card-body, .portfolio-create-container .card-body,
+.create-stock-container .card-body, .portfolio-create-container .card-body {
+  padding: 0.5rem;
+}
+
+.portfolios-summary-container .card-body .card-body-header,
+.portfolio-summary-container .card-body .card-body-header,
+.portfolio-create-container .card-body .card-body-header,
+.create-stock-container .card-body .card-body-header {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.portfolios-summary-container .card-body .el-row,
+.portfolio-summary-container .card-body .el-row,
+.create-stock-container .card-body .el-row {
+  margin-bottom: 1rem;
+}
+
+.portfolios-summary-container .card-body .el-col,
+.portfolio-summary-container .card-body .el-col,
+.create-stock-container .card-body .el-col {
+  padding: 0.5rem;
+}
+
+.portfolios-summary-container .card-body .stock-card,
+.portfolio-summary-container .card-body .stock-card {
+  background-color: #DBE2EF;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+}
+
+.portfolios-summary-container .card-body .stock-card .el-link__inner {
+  font-size: 1rem;
+}
+
+.portfolios-summary-container .card-body .stock-card .stock-card-content,
+.portfolio-summary-container .card-body .stock-card .stock-card-content,
+.create-stock-container .card-body .stock-card .stock-card-content {
+  margin-bottom: 0.5rem;
+  padding: 0.1rem;
+}
+
+.portfolios-summary-container .card-body .stock-card .el-col {
+  padding: 0.1rem;
+}
+
+.portfolios-summary-container .f-big,
+.portfolio-summary-container .f-big,
+.create-stock-container .f-big {
+  font-size: 2rem;
+}
+
+.portfolios-summary-container .f-small,
+.portfolio-summary-container .f-small,
+.create-stock-container .f-small {
+  font-size: 1.3rem;
+}
+
+.portfolio-create-container .card-header,
+.portfolio-summary-container .card-header,
+.create-stock-container .card-header {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.portfolio-create-container .card-body .el-form-item,
+.portfolio-summary-container .card-body .el-form-item {
+  padding: 1rem;
+}
+
+.portfolio-create-container .box-card .radio-btn,
+.portfolio-summary-container .box-card .radio-btn,
+.create-stock-container .box-card .radio-btn {
+  margin-right: 1rem;
+}
+
+.portfolio-create-container .box-card .radio-btn .el-radio-button__inner,
+.portfolio-summary-container .box-card .radio-btn .el-radio-button__inner,
+.create-stock-container .box-card .radio-btn .el-radio-button__inner {
+  border-left-width: 1px !important;
+  border-left-style: solid;
+  border-left-color: #dcdfe6;
+  border-radius: 2rem !important;
+}
+
+.portfolio-create-container .button-container .el-form-item__content,
+.portfolio-summary-container .button-container .el-form-item__content,
+.create-stock-container .button-container .el-form-item__content {
+  justify-content: center;
+}
+
+.portfolio-create-container .button-container .el-button,
+.portfolio-summary-container .button-container .el-button,
+.create-stock-container .button-container .el-button {
+  width: 40%;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.el-dialog, .el-message-box {
+  border-radius: 2rem !important;
+  background-color: #DBE2EF !important;
+}
+
+.popup .el-input__wrapper,
+.popup .el-textarea__inner {
+  border-radius: 0.5rem;
+}
+
+.popup .add-stock-container .statistic {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+
+.popup .add-stock-container .statistic .row {
+  border-bottom: 1px solid;
+  margin: 0px;
+  padding: 0.5rem;
+}
+
+.popup .add-stock-container .statistic .el-col {
+  padding: 0.1rem;
+}
+
+.popup .add-stock-container .statistic .title {
+  font-weight: bold;
+}
+
+.popup .add-stock-container .add-stock-form {
+  width: 85%;
+  margin: auto;
+}
+
+.popup .add-stock-container .add-stock-form .el-form-item {
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.popup .add-stock-container .add-stock-form .el-form-item .el-input {
+  width: 150px;
+}
+
+.popup .add-stock-container .button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.create-stock-container .create-stock-form {
+  background-color: #DBE2EF;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.create-stock-container .el-input__wrapper {
+  border-radius: 0.5rem;
+}
+
+.create-stock-container .create-stock-form .el-form-item__label {
+  font-size: 1.2rem;
+}
+
+.create-stock-container .create-stock-form .el-form-item .el-input,
+.create-stock-container .create-stock-form .el-form-item .el-input-number {
+  width: 65%;
+}
+
+.create-stock-container .create-stock-form .el-form-item .el-input-number .el-input {
+  width: 100%;
+}
+
+.create-stock-container .button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.create-stock-container .button-container .el-button {
+  font-size: 1.1rem;
+  width: 31%;
+}
+
+.create-stock-container .card-body .stock-card {
+  background-color: #DBE2EF;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+}
+
+.tag {
+  border: none !important;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.color-black {
+  color: black !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}

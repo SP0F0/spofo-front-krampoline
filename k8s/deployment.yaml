@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spofo-front
+spec:
+  selector:
+    matchLabels:
+      app: spofo-front
+  template:
+    metadata:
+      labels:
+        app: spofo-front
+    spec:
+      containers:
+        - name: spofo-front
+          # 여러분의 image 주소를 입력해주세요.
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_9f80ce6a2318
