@@ -4,5 +4,5 @@ COPY spofo-front/ ./
 RUN npm ci
 RUN npm run build
 RUN npm install -g serve
-EXPOSE 3000
+EXPOSE 5174
 CMD ["serve", "build"]
