@@ -14,5 +14,5 @@ spec:
           - backend:
               serviceName: frontend
               servicePort: 5173
-              path: /
+              path: /*
               pathType: Prefix
